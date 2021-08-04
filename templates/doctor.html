@@ -1,0 +1,128 @@
+<html>
+<head>
+	<title> New Hospital </title>
+		<link href="static/stylesheets/style.css" type="text/css" rel="stylesheet">
+	<link href="static/stylesheets/sty.css" type="text/css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+	body {font-family: Arial, Helvetica, sans-serif;}
+	form {border: 3px solid #f1f1f1;}
+
+	input[type=text], input[type=password] {
+	  width: 100%;
+	  padding: 12px 20px;
+	  margin: 8px 0;
+	  display: inline-block;
+	  border: 1px solid #ccc;
+	  box-sizing: border-box;
+	}
+
+	button {
+	  background-color: #4CAF50;
+	  color: white;
+	  padding: 14px 20px;
+	  margin: 8px 0;
+	  border: none;
+	  cursor: pointer;
+	  width: 100%;
+	}
+
+	button:hover {
+	  opacity: 0.8;
+	}
+
+	.cancelbtn {
+	  width: auto;
+	  padding: 10px 18px;
+	  background-color: #f44336;
+	}
+
+	.imgcontainer {
+	  text-align: center;
+	  margin: 24px 0 12px 0;
+	}
+
+	img.avatar {
+	  width: 40%;
+	  border-radius: 50%;
+	}
+
+	.container {
+	  padding: 16px;
+	}
+
+	span.psw {
+	  float: right;
+	  padding-top: 16px;
+	}
+
+
+	@media screen and (max-width: 300px) {
+	  span.psw {
+	     display: block;
+	     float: none;
+	  }
+	  .cancelbtn {
+	     width: 100%;
+	  }
+	}
+	</style>
+
+</head>
+<body>
+<div class="top">
+		<div>
+		Contact Us +91 0123456789   | New@hospital.com
+		</div>
+</div>
+<div class="logo">
+	<div>
+		<table>
+			<tr>
+				<h1><td width="200px" style="font-size:20px;font-family:forte;"> <font color="#428bca"> New  </font><font color="#000"> Hospital</font> </td></h1>
+				<td> 
+					<font size="4px">
+						<a href="home">HOME</a>
+						<a href="about">ABOUT US</a>
+						<a href="service">SERVICE</a>
+						<a href="doctor">DOCTORS</a>
+						<a href="contact">CONTACT US</a>
+						<a href="plots">DATA ANALYSIS</a>
+					</font>
+				</td>
+			</tr>
+		</table>
+	</div>
+</div>
+<h2>Login Form</h2>
+
+<form method="post">
+  <div class="imgcontainer">
+    <img src="static/img/img_avatar2.jpg" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+
+
+	<div class="nav_down">
+		<div>
+		 &copy; New Hospital
+		</div>
+	</div>
